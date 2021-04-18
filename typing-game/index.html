@@ -5,19 +5,20 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="./index.css">
-        <script src="./index.js" defer></script>
     </head>
     <body>
         <h1>Practice your typing</h1>
         <div>
             Click start to generate a quote. Type the quote as fast as you can!
         </div>
-        <div id="input">
+        <p id="quote"></p>
+        <p id="message"></p>
+        <div class="input">
             <form>
-                <br>
-                <input type="text" id="word"><br>
-                <button type="button" >Start</button>
+                <input type="text" id="typed"><br>
+                <button type="button" id="start" >Start</button>
             </form> 
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
